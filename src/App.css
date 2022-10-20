@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+ellipses1,ellipses2,ellipses3,ellipses4 {
+    display: block;
+}
+
+ellipses1 {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 122px;
+    top: 400px;
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    border-radius: 50%;
+    filter: blur(15px);
+}
+
+ellipses2 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 656px;
+    top: 70px;
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    border-radius: 50%;
+    filter: blur(10px);
+}
+
+ellipses3 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1223px;
+    top: 303px;
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(ellipse at 10% 21%, #494955 0%, #141414 68%);
+
+    border-radius: 50%;
+    filter: blur(10px);
+}
+
+ellipses4 {
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    left: 451px;
+    top: -30px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #222228 0%, rgba(34, 34, 40, 0) 100%);
+}
+
+
+
+.main__bg {
+    color: black;
+}
+
+.gradient__bg {
+
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(112deg, #FF9898 0%, #8054FF 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(112deg, #FF9898 0%, #8054FF 100%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(112deg, #FF9898 0%, #8054FF 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8054FF', endColorstr='#FF9898', GradientType=0);
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(112deg, #FF9898 0%, #8054FF 100%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(112deg, #FF9898 0%, #8054FF 100%);
+
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+}

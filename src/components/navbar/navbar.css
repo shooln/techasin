@@ -1,0 +1,48 @@
+.techsain__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.techsain__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.techsain__navbar-links_logo {
+    margin-right: 2rem; 
+}
+
+.techsain__navbar-links_logo img {
+    margin-top: 0.5rem;
+    width: 100px;
+}
+
+.techsain__navbar-links_container {
+    display: flex;
+    flex-direction: Left;
+}
+
+.techsain__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.techsain__navbar-links_container p,
+.techsain__navbar-sign p,
+.techsain__navbar-menu_container p {
+    color: #ffff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
