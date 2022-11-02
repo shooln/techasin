@@ -14,7 +14,7 @@
 }
 
 .techsain__navbar-links_logo {
-    margin-right: 2rem; 
+    margin-right: 2rem;
 }
 
 .techsain__navbar-links_logo img {
@@ -45,4 +45,29 @@
 
     margin: 0 1rem;
     cursor: pointer;
+}
+
+.techsain__navbar-sign button,
+.techsain__navbar-menu_container button {
+    padding: 0.5rem 4rem;
+
+    /* Main Color */
+    background: linear-gradient(92.51deg, #FF9898 0.48%, #8054FF 100%);
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }

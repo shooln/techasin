@@ -11,15 +11,14 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className='techsain__navbar-links_container'>
-          <p>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#blog">Our Work</a>
-            <a href="#contact">Contact</a>
-            <a href="#support">Login</a>
-          </p>
-
+            <p><a href="#home">Home</a></p>
+            <p><a href="#services">Services</a></p>
+            <p><a href="#blog">Our Work</a></p>
+            <p><a href="#contact">Contact</a></p>
         </div>
+      </div>
+      <div className='techsain__navbar-sign'>
+        <button type="button">Sign In</button>
       </div>
     </div>
   )
